@@ -1,0 +1,4 @@
+Dim speaks, speech 
+speaks="Text to Speak"
+Set speech=CreateObject("sapi.spvoice")
+speech.Speak speaks
